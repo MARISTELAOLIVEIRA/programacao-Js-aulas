@@ -10,3 +10,21 @@ body {
 h1 {
   color: #2e7d5b;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #d5e2da;
+}
+
+th {
+  background: #2e7d5b;
+  color: white;
+}

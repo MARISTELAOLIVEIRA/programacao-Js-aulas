@@ -2,14 +2,25 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Cadastro de Alunos Turma A</title>
+  <title>Cadastro de Alunos</title>
   <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-  <h1 id="titulo">Título provisório</h1>
-  <p id="mensagem">Este texto ainda é do HTML.</p>
+  <h1>Cadastro de Alunos</h1>
+  <p id="aviso"></p>
 
-  <!-- o script fica no fim do body: assim o HTML já existe quando ele roda -->
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Média</th>
+        <th>Situação</th>
+      </tr>
+    </thead>
+    <!-- o tbody começa vazio: quem vai preencher é o JavaScript -->
+    <tbody id="tabela"></tbody>
+  </table>
+
   <script src="script.js"></script>
 </body>
 </html>
